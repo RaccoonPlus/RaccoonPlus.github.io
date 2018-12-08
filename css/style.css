@@ -117,6 +117,8 @@ footer{
 @media only screen and (max-width: 800px){.logo{display:none;};}
 @media only screen and (min-width: 376px) and (max-width: 600px){.header-button{font-size: 100%;};}
 @media only screen and (max-width: 375px){.header-button{font-size: 80%;};}
+@media only screen and (min-width: 376px) and (max-width: 600px){.button-footer{font-size: 100%;};}
+@media only screen and (max-width: 375px){.button-footer{font-size: 80%;};}
 @media only screen and (max-width: 450px){header{margin-top: -10%;};}
 @media only screen and (max-width: 550px){section{padding: 1%;};}
 @media only screen and (max-width: 550px){section{background-color: #333333;};}
