@@ -1,1 +1,127 @@
-body{margin:0;}.title{text-align:center;font-weight:700;font-size:250%;margin-top:0;}header{background-color:#900;height:100%;margin-top:-2.5%;}.social{padding-top:1%;float:centre;}.header1{background-color:#c00;color:#fff;font-family:Roboto;height:100%;margin:0;padding:0;}.logotype{margin-top:20px;height:260px;margin-bottom:20px;}.header-button{background-color:#999;width:100%;height:17%;font-family:Verdana;border:0;border-radius:25px;font-size:150%;color:#000;font-weight:700;text-align:center;margin:5%;}section{background-color:#ccc;padding:4% 8%;}.section-block{background-color:#fff;}img.foto{height:11.8%;margin:.51%;}div.foto{background-color:#fff;padding:2% 0;}.foto-div{height:2000px;}footer{background-color:#900;color:#fff;padding:2.5%;}.button-footer{background-color:#999;width:110%;height:17%;font-family:Verdana;border:0;border-radius:25px;font-size:150%;color:#000;font-weight:700;text-align:center;}.social-1,.social-2,.social-3{width:20%;}@media only screen and max-width 800px{.logo{display:none;}}@media only screen and min-width 376px and max-width 600px{.header-button,.button-footer{font-size:100%;}}@media only screen and max-width 375px{.header-button,.button-footer{font-size:80%;}}@media only screen and max-width 450px{header{margin-top:-10%;}}@media only screen and max-width 550px{section{background-color:#333;padding:1%;}}@media only screen and min-width 991px and max-width 1024px{img.foto{height:10%;}}@media only screen and min-width 768px and max-width 991px{img.foto{height:9.5%;}}@media only screen and min-width 632px and max-width 767px{img.foto{height:8.1%;}}@media only screen and min-width 588px and max-width 631px{img.foto{height:7.5%;}}@media only screen and min-width 473px and max-width 587px{img.foto{height:7%;}}@media only screen and min-width 441px and max-width 472px{img.foto{height:6.5%;}}@media only screen and min-width 355px and max-width 440px{img.foto{height:6%;}}@media only screen and min-width 264px and max-width 354px{img.foto{height:5.5%;}}@media only screen and min-width 0px and max-width 263px{img.foto{height:5%;}}
+body{
+	margin: 0;
+}
+
+.title{
+	text-align: center;
+	font-weight: 700;
+	font-size: 250%;
+	margin-top: 0;
+}
+
+/*Верхняя часть сайта*/
+header{
+	background-color: #990000;
+	height: 100%;
+	margin-top: -2.5%;
+}
+
+.social{
+	padding-top: 1%;
+	float: centre;
+}
+
+.social-1{
+	width: 20%;
+}
+.social-2{
+	width: 20%;
+}
+.social-3{
+	width: 20%;
+}
+
+.header1{
+	background-color: #cc0000;
+	color: #ffffff;
+	font-family: 'Roboto';
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.logotype{
+	margin-top: 20px;
+	height: 260px;
+	margin-bottom: 20px;
+}
+
+.header-button{
+	background-color: #999999;
+	width: 100%;
+	height: 17%;
+	margin: 5%;
+	font-family: Verdana;
+	border: 0;
+	border-radius: 25px;
+	font-size: 150%;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*Центральная часть сайта*/
+section{
+	background-color: #cccccc;
+	padding-top: 4%;
+	padding-left: 8%;
+	padding-right: 8%;
+	padding-bottom: 4%;
+}
+
+.section-block{
+	background-color: #fff;
+}
+
+img.foto{
+	height: 11.8%;
+	margin: 0.51%;
+}
+
+div.foto{
+	background-color: #fff;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.foto-div{
+	height: 2000px;
+}
+
+/*Нижняя часть сайт*/
+footer{
+	background-color: #990000;
+	color: #fff;
+	padding:2.5%;
+	
+}
+
+.button-footer{
+	background-color: #999999;
+	width: 100%;
+	height: 17%;
+	font-family: Verdana;
+	border: 0;
+	border-radius: 25px;
+	font-size: 150%;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+}
+/* Адаптация сайта под мобильные устройства*/	
+@media only screen and (max-width: 800px){.logo{display:none;};}
+@media only screen and (min-width: 376px) and (max-width: 600px){.header-button{font-size: 100%;};}
+@media only screen and (max-width: 375px){.header-button{font-size: 80%;};}
+@media only screen and (max-width: 450px){header{margin-top: -10%;};}
+@media only screen and (max-width: 550px){section{padding: 1%;}}
+@media only screen and (min-width: 991px) and (max-width: 1024px){img.foto{height: 10%;}}
+@media only screen and (min-width: 768px) and (max-width: 991px){img.foto{height: 9.5%;}}
+@media only screen and (min-width: 632px) and (max-width: 767px){img.foto{height: 8.1%;}}
+@media only screen and (min-width: 588px) and (max-width: 631px){img.foto{height: 7.5%;}}
+@media only screen and (min-width: 473px) and (max-width: 587px){img.foto{height: 7%;}}
+@media only screen and (min-width: 441px) and (max-width: 472px){img.foto{height: 6.5%;}}
+@media only screen and (min-width: 355px) and (max-width: 440px){img.foto{height: 6%;}}
+@media only screen and (min-width: 264px) and (max-width: 354px){img.foto{height: 5.5%;}}
+@media only screen and (min-width: 0px) and (max-width: 263px){img.foto{height: 5%;}}
